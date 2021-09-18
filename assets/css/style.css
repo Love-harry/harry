@@ -13,7 +13,7 @@ html{
 }
 
 body{
-    background: #000;
+    background: rgb(0, 0, 0);
 }
 
 /* width */
@@ -37,8 +37,7 @@ body{
   background: #555;
 }
 
-span{
-    
+span{ 
 	background-image: linear-gradient(92deg, #e4620b, #f3b93b);
 	-webkit-background-clip: text;
     background-clip: text;
@@ -48,7 +47,6 @@ span{
 }
 
 #header{
-    /* background: black; */
     height: 100vh;
 }
 
@@ -102,49 +100,7 @@ span{
     width: 220px;
     border-radius: 100%;
     transform: rotate(17deg);
-    border: 2px solid rgb(255, 255, 255);
-}
-
-.row{
-    display: flex;
-    align-items: center;
-    width: 3600px;
-    align-items: center;
-    /* border: 1px solid red; */
-}
-
-.col{
-    display: flex;
-    align-items: center;
-    /* border: 1px solid red; */
-    width: 900px;
-    margin-right: 10px;
-    padding: 10px;
-}
-
-.preview img{
-    width: 460px;
-    border-radius: 10px;
-    margin-right: 30px;
-}
-
-.par-1, .par-2{
-    color: white;
-}
-
-.container{
-    width: 100%;
-    height: 100vh;
-    border: 1px solid blue;
-    /* transform: transform(-50%, -50%); */
-}
-
-.projects{
-    /* width: 114%; */
-    /* overflow: hidden; */
-    border: 1px solid red;
-    
-    padding: 5px;
+    border: 3px solid #ffffff;
 }
 
 .title{
@@ -155,39 +111,51 @@ ul{
     color: white;
 }
 
-
+/* Mouse section styling */
 .scroll{
+/* border: 1px solid red; */
+position: relative;
+height: 51px;
+top: 40%;
+}
+
+.mouse-link{
     /* border: 1px solid red; */
+    height: 50px;
     width: 50px;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    top: 37%;
-    cursor: pointer;
     padding: 0;
     margin: 0 auto;
-    height: 50px;
 }
 
 .mouse-down {
-width:25px;
-height:43px;
+width: 24px;
+height: 40px;
 border:2px solid #fff;
-border-radius:20px;
-
+border-radius:50px;
+margin: 0 auto;
 }
-.bullet {
-width:5px;
-height:5px;
-background:#fff;
-margin: auto auto;
-border-radius:8px;
-position:relative;
 
--webkit-animation: scrollDownUp 3s infinite; /* Chrome, Safari, Opera */
+.bullet {
+width: 6px;
+height: 6px;
+background: #fff;
+margin: 0 auto;
+border-radius: 100%;
+position: relative;
+-webkit-animation: scrollDownUp 3s infinite;
 animation: scrollDownUp 2s linear infinite;
 }
+/* end mouse section */
+
+/* project section */
+.btn{
+    background: #fff;
+    padding: 2px 10px;
+    border-radius: 9px;
+    margin: 0;
+    color: #333;
+}
+
 /* Chrome, Safari, Opera */
 @-webkit-keyframes scrollDownUp {
 0% {top: 5px;}
