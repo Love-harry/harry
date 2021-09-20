@@ -90,7 +90,7 @@
     border-radius: 30px;
     display: inline-block;
     height: 8px;
-    overflow: hidden;
+    /* overflow: hidden; */
     text-indent: -999em;
     width: 8px;
     position: relative;
@@ -99,7 +99,7 @@
     transition: all 0.5s linear 0s;
 }
 .lSSlideOuter .lSPager.lSpg > li:hover a, .lSSlideOuter .lSPager.lSpg > li.active a {
-    background-color: #428bca;
+    background-color: #ffffff;
 }
 .lSSlideOuter .media {
     opacity: 0.8;
@@ -157,7 +157,7 @@
     display: block;
     top: 50%;
     height: 32px;
-    background-image: url('../img/controls.png');
+    background-image: url('../images/controls.png');
     cursor: pointer;
     position: absolute;
     z-index: 99;

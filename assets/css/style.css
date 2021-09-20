@@ -97,12 +97,24 @@ a {
   margin-top: 10px;
 }
 
-.b img {
+.b{
+  border: 2px solid white;
+  background: url('../images/about.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  transform: rotate(17deg);
+  height: 220px;
+  width: 220px;
+}
+
+/* .b img {
   width: 220px;
   border-radius: 100%;
   transform: rotate(17deg);
   border: 3px solid #ffffff;
-}
+} */
 
 .title {
   color: white;
@@ -162,7 +174,11 @@ ul {
 }
 
 .project-img {
-  width: 500px;
+  width: 550px;
+}
+
+.details{
+  padding: 10px;
 }
 
 .project-details{
@@ -180,7 +196,7 @@ ol li{
 }
 
 .container {
-  width: 1150px;
+  width: 1250px;
   padding: 32px;
   height: 550px;
   position: relative;
@@ -194,12 +210,13 @@ ol li{
 }
 
 .box {
-  height: 460px;
+  border: 2px solid  #0e0e0e;
+  height: 490px;
   overflow: hidden;
-  width: 500px;
+  width: 550px;
   margin: 10px 20px;
-  /* background-color: #e4620b; */
-  border-radius: 20px 20px 0 0;
+  background-color: #0e0e0e;
+  border-radius: 20px 20px;
 }
 
 .btn {
