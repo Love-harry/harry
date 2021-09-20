@@ -180,8 +180,12 @@ ol li{
 }
 
 .container {
-  width: 100%;
+  width: 1150px;
+  padding: 32px;
   height: 550px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0 );
   /* border: 1px solid green; */
   /* background: indianred; */
   display: flex;
