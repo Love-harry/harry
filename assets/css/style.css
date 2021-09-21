@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,100&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,200;0,400;1,200&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -119,6 +119,8 @@ a {
 .title {
   color: white;
   text-align: center;
+  font-family: 'poppins';
+  margin-bottom: 5px;
 }
 
 ul {
@@ -183,7 +185,8 @@ ul {
 
 .project-details{
     color: white;
-    font-size: 15px;
+    font-size: 14px;
+    font-family: 'Work Sans';
 }
 
 ol{
