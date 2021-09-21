@@ -166,6 +166,7 @@ ul {
 /* project section */
 .phead-text {
   text-align: center;
+  font-family: 'poppins';
   color: white;
   padding: 25px 0;
 }
@@ -214,7 +215,7 @@ ol li{
 
 .box {
   border: 2px solid  #0e0e0e;
-  height: 490px;
+  /* height: 490px; */
   overflow: hidden;
   width: 550px;
   margin: 10px 20px;
