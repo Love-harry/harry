@@ -235,12 +235,28 @@ ol li{
 /* contact */
 #contact{
   height: 100vh;
+  /* border: 1px solid red; */
   color: #fff;
 }
 
 .chead-text{
   font-size: 1.5rem;
   text-align: center;
+  font-family: 'poppins';
+  position: relative;
+  top: 50px;
+}
+
+.contact-box{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid red; */
+  text-align: center;
+  font-size: 40px;
+  position: relative;
+  top: 30%;
 }
 
 /* footer */
@@ -262,7 +278,7 @@ footer p{
 
 footer{
   /* border: 1px solid red; */
-  background: #1f1f1f;
+  background: #0a0a0a;
   display: flex;
   color: #fff;
   align-items: center;
