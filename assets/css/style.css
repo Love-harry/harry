@@ -98,7 +98,17 @@ nav {
 
 .navlist {
   color: white;
-  padding: 5px 0;
+  margin: 10px 0;
+}
+
+.res{
+  background: #0c0c0c;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.pad{
+  padding: 7px 0;
 }
 
 .navicon{
